@@ -1,0 +1,80 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    margin-top: 150px;
+}
+
+body {
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 4vh;
+}
+
+
+img {
+    height: 2em;
+    width: auto;
+}
+
+button img {
+    pointer-events: none;
+}
+
+.slider {
+    display: block;
+    width: 100%;
+}
+
+
+/* Classes  */
+.container {
+    margin-bottom: 50vh;
+}
+
+.form-control {
+    border: 1px solid white !important;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    margin: 10px;
+}
+
+button#random {
+    background: transparent;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    color: white;          
+    border: 1px solid white;
+    border-radius: 10px;
+}
+    
+button#random:hover {
+    background: white;
+    color: black; 
+}
