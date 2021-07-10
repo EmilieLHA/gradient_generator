@@ -1,14 +1,14 @@
 // Select DOM Elements
 
-let colorsInput  = document.querySelectorAll(".inputColor");
-let range   = document.querySelector('input[type="range"]');
+let colorsInput     = document.querySelectorAll(".inputColor");
+let range           = document.querySelector('input[type="range"]');
 
-let colorsDiv = document.querySelector('.colors');
+let colorsDiv       = document.querySelector('.colors');
 
-let buttons = document.querySelectorAll("button");
-let randomButton = document.querySelector('.random');
+let buttons         = document.querySelectorAll("button");
+let randomButton    = document.querySelector('.random');
 
-let info = document.querySelector('span');
+let info            = document.querySelector('span');
 
 // Initialisation 
 
@@ -101,7 +101,7 @@ function addOrRemove(e) {
 
 console.log(colorsInput);
 
-// Generate random colorr gradient 
+// Generate random color gradient 
 
 randomButton.addEventListener('click', () => {
     console.log(colorsInput)
